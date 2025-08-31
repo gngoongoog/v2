@@ -1,4 +1,4 @@
-// src/components/Categories.jsx
+// src/components/Categories.js
 import React from 'react';
 import { List, Grid, Filter } from 'lucide-react';
 
