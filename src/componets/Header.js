@@ -1,4 +1,5 @@
 // src/components/Header.js
+// a
 import React from 'react';
 import { Search, ShoppingCart } from 'lucide-react';
 
