@@ -1,9 +1,10 @@
 // src/App.js
 import React, { useState, useEffect, useMemo } from 'react';
-import Header from './components/Header';
-import Categories from './components/Categories';
-import ProductGrid from './components/ProductGrid';
-import CartView from './components/CartView';
+// الإصلاح الرئيسي: إضافة الامتداد .js في جميع عبارات الاستيراد
+import Header from './components/Header.js';
+import Categories from './components/Categories.js';
+import ProductGrid from './components/ProductGrid.js';
+import CartView from './components/CartView.js';
 import { fetchProducts } from './utils/api';
 import { formatPrice } from './utils/formatPrice';
 
@@ -120,7 +121,7 @@ const App = () => {
     message += '📞 سأقوم بالتواصل معكم لتأكيد الطلب وتفاصيل التوصيل\n\n';
     message += '🙏 شكراً لاختياركم متجر Gn Store';
     
-    // التصحيح هنا: إزالة المسافتين الزائدتين بعد wa.me/
+    // الإصلاح الحاسم: إزالة المسافتين الزائدتين بعد wa.me/
     const whatsappUrl = `https://wa.me/${phoneNumber.replace('+', '')}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
