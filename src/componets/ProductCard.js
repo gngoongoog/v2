@@ -1,4 +1,4 @@
-// src/components/ProductCard.jsx
+// src/components/ProductCard.js
 import React from 'react';
 import { Heart, ShoppingCart, Share2, Star } from 'lucide-react';
 import { formatPrice } from '../utils/formatPrice';
