@@ -1,4 +1,5 @@
 // src/components/CartView.js
+// a
 import React from 'react';
 import { Minus, Plus, ShoppingCart } from 'lucide-react';
 import { formatPrice } from '../utils/formatPrice';
