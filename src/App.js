@@ -120,6 +120,7 @@ const App = () => {
     message += '📞 سأقوم بالتواصل معكم لتأكيد الطلب وتفاصيل التوصيل\n\n';
     message += '🙏 شكراً لاختياركم متجر Gn Store';
     
+    // التصحيح هنا: إزالة المسافتين الزائدتين بعد wa.me/
     const whatsappUrl = `https://wa.me/${phoneNumber.replace('+', '')}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
