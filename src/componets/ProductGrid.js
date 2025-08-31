@@ -1,4 +1,4 @@
-// src/components/ProductGrid.jsx
+// src/components/ProductGrid.js
 import React from 'react';
 import ProductCard from './ProductCard';
 import LoadingSpinner from './LoadingSpinner';
