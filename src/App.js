@@ -1,9 +1,9 @@
-// src/App.jsx
+// src/App.js
 import React, { useState, useEffect, useMemo } from 'react';
-import Header from './components/Header.jsx';
-import Categories from './components/Categories.jsx';
-import ProductGrid from './components/ProductGrid.jsx';
-import CartView from './components/CartView.jsx';
+import Header from './components/Header';
+import Categories from './components/Categories';
+import ProductGrid from './components/ProductGrid';
+import CartView from './components/CartView';
 import { fetchProducts } from './utils/api';
 import { formatPrice } from './utils/formatPrice';
 
